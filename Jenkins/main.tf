@@ -91,6 +91,6 @@ resource "aws_instance" "web-instance" {
     Name = "Jenkins"
   }
   root_block_device {
-    volume_size = 20
+    volume_size = 30
   }
 }
